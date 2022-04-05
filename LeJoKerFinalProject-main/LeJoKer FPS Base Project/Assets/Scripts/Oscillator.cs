@@ -15,8 +15,8 @@ public class Oscillator : MonoBehaviour
     public bool isFrozen;
     public bool isFrozen2;
 
-    public float freezeTimer = 0.0f;
-    public float unFreeze = 10f;
+    public float freezeTimer = 5f;
+    public float unFreeze = 5f;
 
     // Start is called before the first frame update
     void Start()
